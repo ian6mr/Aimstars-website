@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Meet the Aimstars team - featuring Radiant players like nawy, Resy, and Cero. Learn from our content creators and competitive Valorant players.">
+    <meta property="og:title" content="Aimstars Team - Radiant Players">
+    <meta property="og:description"
+        content="Meet our Radiant players and content creators including nawy, Resy, and Cero.">
+    <meta property="og:image" content="https://aimstars.com/Images/AimstarsLogoWhite.png">
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d665fb1640.js" crossorigin="anonymous"></script>
+    <title>Meet Our Team - Radiant Players & Content Creators | Aimstars</title>
+</head>
+
+<body>
+    <header class="other-pages-header">
+        <!-- Galaxy Background with Stars -->
+        <div class="galaxy-bg">
+            <div class="stars-layer stars-near"></div>
+            <div class="stars-layer stars-mid"></div>
+            <div class="stars-layer stars-far"></div>
+
+            <!-- Glowing Logo Star -->
+            <div class="logo-star">
+                <div class="logo-glow"></div>
+                <img src="Images/AimstarsLogoWhite.png" alt="Aimstars" class="logo-center">
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html"><img src="Images/AimstarsLogoWhite.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="method.html">METHOD</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h2>Our Amazing Team</h2>
+            <p>Meet the talented individuals who make Aimstars a reality. Together, we create exceptional experiences.
+            </p>
+            <a href="#team-members" class="hero-btn">Meet the Team</a>
+        </div>
+    </header>
+
+    <section class="team" id="team-members">
+        <h1>Featured content creators</h1>
+        <p>The talented individuals who make Aimstars what it is</p>
+        <div class="carousel-container">
+            <button class="carousel-arrow carousel-arrow-left" onclick="slideCarousel('featured', -1)">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <div class="carousel-wrapper">
+                <div class="team-grid" id="featured-carousel">
+                    <div class="featured-member team-member">
+                        <a href="profiles/nawy.html">
+                            <img src="Images/Nawypfp.jpg" alt="nawy">
+                        </a>
+                        <h3>nawy</h3>
+                        <p class="member-bio">Radiant ranked player and IGL. Known for insane aim and strategic
+                            gameplay.
+                            Streams daily and creates educational content.</p>
+                    </div>
+                    <div class="featured-member team-member">
+                        <a href="profiles/resy.html">
+                            <img src="Images/Resy.jpg" alt="Resy">
+                        </a>
+                        <h3>Resy</h3>
+                        <p class="member-bio">Sentinel main and clutch master. Specializes in holding sites and 1v1
+                            situations.
+                            YouTube content creator focusing on agent guides.</p>
+                    </div>
+                    <div class="featured-member team-member">
+                        <a href="profiles/cero.html">
+                            <img src="Images/Snorlax.jpg" alt="Cero">
+                        </a>
+                        <h3>Cero</h3>
+                        <p class="member-bio">Duelist extraordinaire with explosive entry fragging. TikTok viral creator
+                            and
+                            community favorite. Brings the energy every stream.</p>
+                    </div>
+                    <div class="featured-member team-member">
+                        <a href="profiles/member4.html">
+                            <img src="Images/Nawypfp.jpg" alt="Member 4">
+                        </a>
+                        <h3>Phoenix</h3>
+                        <p class="member-bio">Controller main specializing in smoke setups and map control. Creates
+                            in-depth
+                            strategy videos and VOD reviews for the community.</p>
+                    </div>
+                    <div class="featured-member team-member">
+                        <a href="profiles/member5.html">
+                            <img src="Images/Nawypfp.jpg" alt="Member 5">
+                        </a>
+                        <h3>Phoenix 2</h3>
+                        <p class="member-bio">Controller main specializing in smoke setups and map control. Creates
+                            in-depth
+                            strategy videos and VOD reviews for the community.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member6.html">
+                            <img src="Images/Nawypfp.jpg" alt="Member 6">
+                        </a>
+                        <h3>Agent 9</h3>
+                        <p class="member-bio">Initiator specialist focusing on information gathering. Creates highlight
+                            reels and
+                            montages for the team.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member7.html">
+                            <img src="Images/Resy.jpg" alt="Member 7">
+                        </a>
+                        <h3>Member 7</h3>
+                        <p class="member-bio">Flex player adapting to any role. Known for versatility and game sense.
+                            Educational streamer helping players improve.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member8.html">
+                            <img src="Images/Snorlax.jpg" alt="Member 8">
+                        </a>
+                        <h3>Member 8</h3>
+                        <p class="member-bio">Aggressive entry fragger with exceptional mechanics. Creates entertaining
+                            content
+                            with flashy plays and humorous commentary.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member9.html">
+                            <img src="Images/Resy.jpg" alt="Member 9">
+                        </a>
+                        <h3>Member 9</h3>
+                        <p class="member-bio">Flex player adapting to any role. Known for versatility and game sense.
+                            Educational streamer helping players improve.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member10.html">
+                            <img src="Images/Snorlax.jpg" alt="Member 10">
+                        </a>
+                        <h3>Member 10</h3>
+                        <p class="member-bio">Aggressive entry fragger with exceptional mechanics. Creates entertaining
+                            content
+                            with flashy plays and humorous commentary.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member6.html">
+                            <img src="Images/Nawypfp.jpg" alt="Member 6">
+                        </a>
+                        <h3>Agent 9</h3>
+                        <p class="member-bio">Initiator specialist focusing on information gathering. Creates highlight
+                            reels and
+                            montages for the team.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member7.html">
+                            <img src="Images/Resy.jpg" alt="Member 7">
+                        </a>
+                        <h3>Member 7</h3>
+                        <p class="member-bio">Flex player adapting to any role. Known for versatility and game sense.
+                            Educational streamer helping players improve.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member8.html">
+                            <img src="Images/Snorlax.jpg" alt="Member 8">
+                        </a>
+                        <h3>Member 8</h3>
+                        <p class="member-bio">Aggressive entry fragger with exceptional mechanics. Creates entertaining
+                            content
+                            with flashy plays and humorous commentary.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member9.html">
+                            <img src="Images/Resy.jpg" alt="Member 9">
+                        </a>
+                        <h3>Member 9</h3>
+                        <p class="member-bio">Flex player adapting to any role. Known for versatility and game sense.
+                            Educational streamer helping players improve.</p>
+                    </div>
+                    <div class="team-member">
+                        <a href="profiles/member10.html">
+                            <img src="Images/Snorlax.jpg" alt="Member 10">
+                        </a>
+                        <h3>Member 10</h3>
+                        <p class="member-bio">Aggressive entry fragger with exceptional mechanics. Creates entertaining
+                            content
+                            with flashy plays and humorous commentary.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow carousel-arrow-right" onclick="slideCarousel('featured', 1)">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+    <section class="team" id="team-members">
+        <h1>Meet our Staff</h1>
+        <p>The talented individuals who make Aimstars what it is</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <a href="profiles/nawy.html">
+                    <img src="Images/Nawypfp.jpg" alt="nawy">
+                </a>
+                <h3>nawy</h3>
+                <p class="member-bio">Radiant ranked player and IGL. Known for insane aim and strategic gameplay.
+                    Streams daily and creates educational content.</p>
+            </div>
+            <div class="team-member">
+                <a href="profiles/resy.html">
+                    <img src="Images/Resy.jpg" alt="Resy">
+                </a>
+                <h3>Resy</h3>
+                <p class="member-bio">Sentinel main and clutch master. Specializes in holding sites and 1v1 situations.
+                    YouTube content creator focusing on agent guides.</p>
+            </div>
+            <div class="team-member">
+                <a href="profiles/cero.html">
+                    <img src="Images/Snorlax.jpg" alt="Cero">
+                </a>
+                <h3>Cero</h3>
+                <p class="member-bio">Duelist extraordinaire with explosive entry fragging. TikTok viral creator and
+                    community favorite. Brings the energy every stream.</p>
+            </div>
+            <div class="team-member">
+                <a href="profiles/member4.html">
+                    <img src="Images/Nawypfp.jpg" alt="Member 4">
+                </a>
+                <h3>Phoenix</h3>
+                <p class="member-bio">Controller main specializing in smoke setups and map control. Creates in-depth
+                    strategy videos and VOD reviews for the community.</p>
+            </div>
+            <div class="team-member">
+                <a href="profiles/member4.html">
+                    <img src="Images/Nawypfp.jpg" alt="Member 4">
+                </a>
+                <h3>Phoenix</h3>
+                <p class="member-bio">Controller main specializing in smoke setups and map control. Creates in-depth
+                    strategy videos and VOD reviews for the community.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="collaborate">
+        <h1>Collaborate with Aimstars</h1>
+        <p>Interested in becoming part of Aimstars?</p>
+        <div class="collaborate-row">
+            <div class="collaborate-col">
+                <i class="fa-solid fa-user-plus"></i>
+                <h3>Invite Only</h3>
+                <p>Aimstars is an exclusive community. We carefully select vibrant content creators looking to join a
+                    supportive community. We're always on the lookout for talented individuals who share our passion for
+                    the game and creating engaging content for our audience.</p>
+            </div>
+            <div class="collaborate-col">
+                <i class="fa-solid fa-list-check"></i>
+                <h3>Requirements</h3>
+                <p>We look for creators who are active, passionate about Valorant, and dedicated to growing their
+                    audience. It doesn't matter as much as personality, commitment, and the ability to entertain and
+                    educate your audience consistently.</p>
+            </div>
+            <div class="collaborate-col">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Business Inquiries</h3>
+                <p>Ready to join the team? Reach out to us on Discord or send us an email with your content portfolio,
+                    streaming schedule, and why you'd be a great fit for Aimstars. We review all applications carefully.
+                </p>
+                <a href="mailto:business@aimstars.com" class="collab-btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://discord.gg/aimstars"><i class="fa-brands fa-discord"></i></i></a>
+        <a href="https://www.youtube.com/@aimstarsHQ"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://x.com/aimstarsHQ"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.tiktok.com/@aimstarshq"><i class="fa-brands fa-tiktok"></i></a>
+        <hr>
+        <p>&copy; 2025 Aimstars. All rights reserved</p>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        // Mouse repulsion effect for stars (smoother and slower)
+        const otherHeader = document.querySelector('.other-pages-header');
+        if (otherHeader) {
+            otherHeader.addEventListener('mousemove', (e) => {
+                const rect = otherHeader.getBoundingClientRect();
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const mouseX = e.clientX - rect.left;
+                const mouseY = e.clientY - rect.top;
+
+                // Calculate repulsion values (reduced for smoother effect)
+                const deltaX = (centerX - mouseX) * -0.1;
+                const deltaY = (centerY - mouseY) * -0.1;
+
+                // Set CSS variables for repulsion
+                otherHeader.style.setProperty('--mouse-x', `${deltaX}px`);
+                otherHeader.style.setProperty('--mouse-y', `${deltaY}px`);
+            });
+
+            // Reset on mouse leave
+            otherHeader.addEventListener('mouseleave', () => {
+                otherHeader.style.setProperty('--mouse-x', '0px');
+                otherHeader.style.setProperty('--mouse-y', '0px');
+            });
+        }
+
+
+        // Carousel sliding functionality
+        const carouselPositions = {
+            featured: 0,
+            staff: 0
+        };
+
+        function slideCarousel(carouselId, direction) {
+            const carousel = document.getElementById(carouselId + '-carousel');
+            const teamMembers = carousel.querySelectorAll('.team-member');
+            const totalMembers = teamMembers.length;
+
+            // Responsive members per page - 1 on mobile, 5 on desktop
+            const membersPerPage = window.innerWidth <= 700 ? 1 : 5;
+            const totalPages = Math.ceil(totalMembers / membersPerPage);
+
+            // Calculate current page
+            let currentPage = Math.floor(carouselPositions[carouselId] / membersPerPage);
+
+            // Update page based on direction
+            currentPage += direction;
+
+            // Ensure we don't go out of bounds
+            if (currentPage < 0) {
+                currentPage = 0;
+            }
+            if (currentPage >= totalPages) {
+                currentPage = totalPages - 1;
+            }
+
+            // Update position
+            carouselPositions[carouselId] = currentPage * membersPerPage;
+
+            // Calculate the offset based on actual measured widths
+            if (teamMembers.length > 0) {
+                const memberWidth = teamMembers[0].offsetWidth;
+                const computedStyle = window.getComputedStyle(carousel);
+                const gap = parseInt(computedStyle.gap) || 30;
+                const slideDistance = (memberWidth + gap) * membersPerPage;
+                const offset = -currentPage * slideDistance;
+                carousel.style.transform = `translateX(${offset}px)`;
+            }
+        }
+
+        // Reset carousel position on window resize to prevent layout issues
+        window.addEventListener('resize', function () {
+            carouselPositions.featured = 0;
+            carouselPositions.staff = 0;
+            document.getElementById('featured-carousel').style.transform = 'translateX(0px)';
+        });
+
+
+    </script>
+
+</body>
+
+</html>
